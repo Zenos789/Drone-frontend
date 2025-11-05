@@ -1,5 +1,5 @@
 "use client"; 
-
+import { useDroneConfig } from '@/context/DroneContext';
 import { useState, useEffect } from 'react';
 
 export default function ViewLogsPage() {
