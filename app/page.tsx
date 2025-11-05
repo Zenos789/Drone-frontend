@@ -1,7 +1,7 @@
 "use client"; 
 
 import { useEffect } from 'react';
-import { useDroneConfig } from '@/context/DroneContext';
+import { useDroneConfig } from '../context/DroneContext';
 
 export default function ViewConfigPage() {
   const { config, loading, fetchConfig } = useDroneConfig();

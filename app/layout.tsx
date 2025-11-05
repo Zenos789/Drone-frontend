@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Link from "next/link"; 
-import { DroneProvider } from '@/context/DroneContext';
+import { DroneProvider } from '../context/DroneContext';
 
 const inter = Inter({ subsets: ["latin"] });
 
