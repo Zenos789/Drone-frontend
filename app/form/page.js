@@ -1,7 +1,7 @@
 "use client"; 
 
 import { useState, useEffect } from 'react'; 
-import { useDroneConfig } from '../context/DroneContext'; 
+import { useDroneConfig } from '../../context/DroneContext'; 
 
 export default function LogFormPage() {
   const { config, fetchConfig, loading: configLoading } = useDroneConfig(); 
